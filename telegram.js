@@ -4,7 +4,10 @@ const path = require('path');
 const config = require('./config.js');
 class TelegramBotController {
     constructor(token, whatsAppManager) {
-        this.bot = new TelegramBot(token, { polling: true });
+        this.bot = new TelegramBot(token, { polling: { autoStart: true } });
+        this.bot.on('polling_error', (error) => {
+            console.error(`[TELEGRAM POLLING ERROR] ${error.code || 'UNKNOWN'}: ${error.message}`);
+        });
         this.whatsAppManager = whatsAppManager;
         this.ownerId = String(config.OWNER_TELEGRAM_ID);
         this.requiredChannels = config.REQUIRED_CHANNELS;
@@ -50,6 +53,7 @@ this.bot.onText(/\/start/, async (msg) => {
 │  📱 𝗨𝗦𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
 │  /pair <number>  
 │  /delpair        
+│  /site            
 │
 ├─────────────────❏
 │  🛡️ 𝗔𝗗𝗠𝗜𝗡 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
@@ -74,6 +78,15 @@ this.bot.onText(/\/start/, async (msg) => {
         await this.bot.sendMessage(chatId, menuText);
     }
 });
+
+        this.bot.onText(/\/site/, async (msg) => {
+            const chatId = msg.chat.id;
+            const siteUrl = config.PAIR_SITE_URL;
+            if (!siteUrl) {
+                return this.bot.sendMessage(chatId, "⚠️ The pair-site URL is not configured yet. Set the PAIR_SITE_URL environment variable on the Telegram bot service.");
+            }
+            return this.bot.sendMessage(chatId, `🔗 *Billie MD Pair Site*\n\n${siteUrl}`, { parse_mode: "Markdown" });
+        });
 
         this.bot.onText(/\/pair (.+)/, async (msg, match) => {
             const chatId = msg.chat.id;

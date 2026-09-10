@@ -110,8 +110,9 @@ module.exports = {
     }
   },
   
-  TELEGRAM_BOT_TOKEN: "8983435:AAG9G_ge", 
-    OWNER_TELEGRAM_ID: "83273", 
+  TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || "",
+  PAIR_SITE_URL: process.env.PAIR_SITE_URL || process.env.RENDER_EXTERNAL_URL || "",
+  OWNER_TELEGRAM_ID: process.env.OWNER_TELEGRAM_ID || "83273",
   REQUIRED_CHANNELS: [
   {
     type: "channel",

@@ -30,6 +30,11 @@ socket needs — the connection has to stay open, not spin up per request.
    Environment tab — don't commit them.
 4. Deploy. Your pair site is live at `https://<your-service>.onrender.com`.
 
+After deployment, copy the exact public URL from Render and set it as
+`PAIR_SITE_URL` on the Telegram bot service. The bot's `/site` command then
+returns that URL. Set `TELEGRAM_BOT_TOKEN` on the bot service as well; it is
+intentionally not stored in `config.js`.
+
 If you'd rather set it up by hand instead of the blueprint: Web Service →
 Build command `npm install` → Start command `npm run pair`.
 

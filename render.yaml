@@ -12,5 +12,7 @@ services:
         sync: false
       - key: MAX_PAIRED_USERS
         value: 20
+      - key: PAIR_SITE_URL
+        sync: false
     healthCheckPath: /api/health
     autoDeploy: true

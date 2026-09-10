@@ -12,7 +12,7 @@ try {
     const token = config.TELEGRAM_BOT_TOKEN;
 
     if (!token || token === "YOUR_TELEGRAM_BOT_TOKEN") {
-        throw new Error("TELEGRAM_BOT_TOKEN is not defined in your config.js file!");
+        throw new Error("TELEGRAM_BOT_TOKEN is not configured. Add it as an environment variable before starting the Telegram bot.");
     }
     
     const telegramBot = new TelegramBotController(token, whatsAppManager);
