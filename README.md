@@ -1,70 +1,113 @@
-# SUKUNA MD v3
+⚡ BILLIE MD
 
-Panel-paired multi-user WhatsApp bot. No web UI, no Telegram bridge — the
-panel console **is** the pairing interface.
+<a><img src="https://i.imgur.com/LyHic3i.gif"/></a><a><img src="https://i.imgur.com/LyHic3i.gif"/></a>
 
-## How pairing works
+<p align="center">
+<img src="https://files.catbox.moe/8hkvs4.png" width="300" style="border-radius:10px;"/>
+</p><p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&color=00FFFF&width=500&lines=•+BILLIE+MD+•;MULTI-DEVICE+WHATSAPP+BOT;CREATED+BY+PASQUA;SMART.+FAST.+POWERFUL." alt="Typing SVG" /></a>
+</p>---
 
-1. Deploy on Pterodactyl / VPS panel (see below).
-2. Start the bot. The panel console prompts:
-   `[PAIR] Enter WhatsApp number with country code:`
-3. Type the number (e.g. `2349127857212`) and press Enter.
-4. The bot prints an 8-character pairing code: `XXXX-XXXX`.
-5. On the phone: **WhatsApp → Linked Devices → Link with phone number** →
-   enter the code.
-6. Done. The session is saved to `./sessions/<number>/` and auto-reconnects
-   on every restart.
+<p align="center"><u>⚡ A Next-Gen WhatsApp Multi-Device Bot By Pasqua ⚡</u></p><p align="center">
+<a href="#"><img title="Creator: Pasqua" src="https://img.shields.io/badge/Creator-Pasqua-blue.svg?style=for-the-badge&logo=github"></a>  
+</p>
 
-To pair more accounts later, answer `y` to the "Pair another number?"
-prompt, or restart the bot and the prompt appears again. Existing sessions
-restore automatically; pairing is only requested for new numbers.
+<a><img src="https://i.imgur.com/LyHic3i.gif"/></a><a><img src="https://i.imgur.com/LyHic3i.gif"/></a>
 
-## Non-interactive pairing
+---
 
-If your panel does not give you an interactive console, set the env var
-`PAIR_NUMBER=<number>` before start. The pairing code is printed once in
-the logs, then the bot stays running normally. Unset the var on the next
-restart.
+🚀 What is BILLIE MD?
 
-## Pterodactyl deploy
+BILLIE MD is a multi-functional WhatsApp bot built using Node.js and Baileys MD library.
+It's designed for speed, fun, and power packed with group management tools, games, AI chat, downloader utilities, and a smooth interface.
 
-1. Create a Node.js 18+ egg / server.
-2. Upload this project (or `git clone` it).
-3. Install command: `npm install --omit=dev`
-4. Startup command: `node index.js`
-5. Optional env vars (Startup → Variables):
-   - `OWNER_NUMBER` — your WhatsApp number, used by owner-only commands.
-   - `PAIR_NUMBER` — auto-pair this number on boot (non-interactive panels).
-   - `OPENAI_API_KEY`, `WEATHER_API_KEY` — optional command integrations.
-6. Start the server. Open the **Console** tab and follow the pair prompt.
+«💡 "Built by Pasqua — not just another bot, but a whole experience."»
 
-## VPS deploy
+---
 
-```bash
-git clone <your-fork>
-cd sukuna-md
-npm install --omit=dev
-node index.js          # interactive
-# or, headless:
-PAIR_NUMBER=2349127857212 node index.js
-```
+🧩 Features
 
-Use `pm2`, `systemd`, or `screen` to keep it running.
+✅ 513+ Commands Available
+✅ Multi-Device Support
+✅ Auto Downloader (YouTube, TikTok, IG, etc.)
+✅ AI Chat & Image Generator (GPT, MetaAI, PhotoAI)
+✅ Group Management (Kick, Promote, SetDesc, etc.)
+✅ Games (Word Chain, Trivia, Pokemon, etc.)
+✅ Media Tools (Stickers, toAudio, toMP4, Cartoonify, etc.)
+✅ Anime Commands (50+ Anime Girl Pictures)
+✅ Fully Customizable Commands
+✅ Anti-Link, Anti-Spam, Admin Controls
+✅ NSFW Content Filter
+✅ Moderation System
 
-## Project layout
+---
 
-```
-index.js              # entry; restores sessions + CLI pair prompt
-config.js             # bot name, prefix, owner, session paths
-lib/sessionManager.js # Baileys engine — sockets, reconnect, dispatch
-lib/gameLobby.js      # in-chat games state
-commands/             # all bot commands, hot-loaded at boot
-utils/                # helpers (commandLoader, etc.)
-assets/               # menuvideo.mp4 / menuthumb.jpg
-data/                 # persisted per-group settings, warns, etc.
-sessions/             # Baileys auth state per number (auto-created)
-```
+⚙️ Deployment Guide
 
-## License
+«[!IMPORTANT]
+Please ⭐ Star & Fork this repo before deployment.»
 
-MIT
+1️⃣ Get Your Session ID
+
+You need a Session ID to connect your WhatsApp account.
+You can:
+
+- Generate it locally using your terminal, or
+- Use a free pairing code panel if available.
+
+---
+
+2️⃣ Deploy BILLIE MD for Free
+
+Choose your preferred host 👇
+
+Platform | Deploy
+HEROKU | "Deploy Now"
+RENDER | "Deploy Now"
+KOYEB | "Deploy Now"
+RAILWAY | "Deploy Now"
+
+---
+
+<a><img src="https://i.imgur.com/LyHic3i.gif"/></a><a><img src="https://i.imgur.com/LyHic3i.gif"/></a>
+
+🧠 Creator Info
+
+"Connect With Pasqua" <img src="https://github.com/DevPasqua/raw/main/assets/mdImages/handshake.gif" width="80">
+
+<p align="center">
+<a href="https://wa.me/2349028711461"><img src="https://img.shields.io/badge/Contact_Pasqua-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://t.me/pasqua"><img src="https://img.shields.io/badge/Join_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+</p><p align="center">
+<img alt="Development" width="250" src="https://media2.giphy.com/media/W9tBvzTXkQopi/giphy.gif?cid=6c09b952xu6syi1fyqfyc04wcfk0qvqe8fd7sop136zxfjyn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" />
+</p>---
+
+📊 Command Statistics
+
+- Total Commands: 513
+- AI Features: 8+
+- Entertainment: 50+
+- Media Downloads: 20+
+- Anime Commands: 50+
+- Image Effects: 15+
+- Admin Tools: 10+
+- And Much More!
+
+---
+
+⚠️ Disclaimer
+
+«[!WARNING]
+
+- BILLIE MD is not affiliated with WhatsApp Inc. or Meta.
+- Use responsibly. Abusing automation can result in a WhatsApp ban.
+- The developer (Pasqua) holds no responsibility for account misuse or bans.
+- Always follow WhatsApp's terms of service.»
+
+---
+
+<a><img src="https://i.imgur.com/LyHic3i.gif"/></a><a><img src="https://i.imgur.com/LyHic3i.gif"/></a>
+
+<p align="center">
+<b>🔥 BILLIE MD — Smart. Fast. Powerful. 🔥</b>  
+</p>

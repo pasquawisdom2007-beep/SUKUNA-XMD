@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: billie-md-pair-site
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm run pair
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: AGNES_API_KEY
+        sync: false
+      - key: MAX_PAIRED_USERS
+        value: 20
+    healthCheckPath: /api/health
+    autoDeploy: true

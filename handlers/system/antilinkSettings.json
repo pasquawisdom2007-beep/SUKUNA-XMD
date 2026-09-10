@@ -1,0 +1,857 @@
+{
+  "120363405670963457@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772261927728
+  },
+  "120363423742315069@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772262718390
+  },
+  "120363423534857103@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772262719174
+  },
+  "120363423288312114@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772263379529
+  },
+  "120363423353504668@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772263391229
+  },
+  "120363404369515549@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772264852324
+  },
+  "120363406004164851@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "kick",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772265003606
+  },
+  "120363426174978893@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772265786831
+  },
+  "120363406648553754@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772267307103
+  },
+  "120363282963891525@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772268501775
+  },
+  "120363406313868129@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772274398772
+  },
+  "120363401511837468@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772274537456
+  },
+  "120363402031125596@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772277568254
+  },
+  "120363425114938574@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772279260266
+  },
+  "120363424600060653@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772279415962
+  },
+  "120363408442814503@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772284184344
+  },
+  "120363426103452960@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772284380053
+  },
+  "120363424516474200@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772292911481
+  },
+  "120363402328099475@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772293221376
+  },
+  "120363425543944765@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772304714171
+  },
+  "120363404872811160@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772306153274
+  },
+  "120363421400996906@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772323791745
+  },
+  "120363424291311612@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772337418255
+  },
+  "120363406197074680@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772345469426
+  },
+  "120363390612503420@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772346365629
+  },
+  "120363424003552939@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772346432847
+  },
+  "120363425667157009@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772346922373
+  },
+  "120363398870744535@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772348645194
+  },
+  "120363424542616876@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772351165885
+  },
+  "120363402945137572@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772352697558
+  },
+  "120363401070555676@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772353597402
+  },
+  "120363419767249503@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772353677660
+  },
+  "120363347907503490@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772354248261
+  },
+  "120363421114471389@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772354497898
+  },
+  "120363404703166790@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772355476998
+  },
+  "120363403550900953@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772356235772
+  },
+  "120363423388497124@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772362132907
+  },
+  "120363407022491420@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772367918705
+  },
+  "120363405977417662@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772368048734
+  },
+  "120363421236922039@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772369557033
+  },
+  "120363424420179468@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772370946767
+  },
+  "120363407927855173@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772372647675
+  },
+  "120363423259000141@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772373803604
+  },
+  "120363403552389309@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772384881082
+  },
+  "120363420442136763@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772386205349
+  },
+  "120363425973630985@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772406976326
+  },
+  "120363408312656205@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772424923495
+  },
+  "120363405726758591@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "kick",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772425125032
+  },
+  "120363424300186079@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772434593699
+  },
+  "120363426047086846@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772441799286
+  },
+  "120363419525283317@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772453714267
+  },
+  "120363426009333981@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772456009926
+  },
+  "120363424911661714@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772461990460
+  },
+  "120363421937838141@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772462639053
+  },
+  "120363403945621951@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772468587577
+  },
+  "120363408894957729@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772468852852
+  },
+  "120363334346420214@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772473855761
+  },
+  "120363423459063099@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772480465387
+  },
+  "120363339176296396@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772480618349
+  },
+  "120363424625431928@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772483778675
+  },
+  "120363424363991383@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772489055944
+  },
+  "120363425336114292@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772534577230
+  },
+  "120363387208305794@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772565119301
+  },
+  "120363424029821295@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772575224210
+  },
+  "120363408012029224@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772586239047
+  },
+  "120363425030447721@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772625800791
+  },
+  "120363420362909226@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772649939458
+  },
+  "120363409296761434@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772651573818
+  },
+  "120363403974212051@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772698122059
+  },
+  "120363423085296120@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772797976629
+  },
+  "120363404557353866@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772823395386
+  },
+  "120363401682525749@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772823495568
+  },
+  "120363423151321434@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772823778342
+  },
+  "120363422654801254@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772823891933
+  },
+  "120363405510069743@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772824663219
+  },
+  "120363425834986996@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772826875872
+  },
+  "120363403629573143@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772827513058
+  },
+  "120363423210277227@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772833425982
+  },
+  "120363419766501959@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772836625582
+  },
+  "120363406441977423@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772945901033
+  },
+  "120363424115608750@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1772971339894
+  },
+  "120363406606451434@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773017248949
+  },
+  "120363418586922461@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773060427026
+  },
+  "120363423056115533@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773068320534
+  },
+  "120363404932231243@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773071427121
+  },
+  "120363424683954537@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773270265430
+  },
+  "6581288304-1365065043@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773271841865
+  },
+  "120363424846507643@g.us": {
+    "enabled": true,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773291802594
+  },
+  "120363398517406324@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773326859507
+  },
+  "120363424781385159@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773394205106
+  },
+  "120363407321633095@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773395291405
+  },
+  "120363404063781655@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773395418638
+  },
+  "120363408765288977@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773395630138
+  },
+  "120363427726668497@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773436164076
+  },
+  "120363404235739353@g.us": {
+    "enabled": false,
+    "exemptAdmins": true,
+    "exemptBotOwner": true,
+    "mode": "delete",
+    "maxWarnings": 3,
+    "whitelistedUsers": [],
+    "createdAt": 1773592733642
+  }
+}

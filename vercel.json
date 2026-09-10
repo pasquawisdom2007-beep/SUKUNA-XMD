@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "pair-site/server.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "pair-site/server.js" },
+    { "src": "/(.*)", "dest": "pair-site/public/$1" }
+  ]
+}

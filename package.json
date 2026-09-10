@@ -1,40 +1,57 @@
 {
-  "name": "sukuna-md",
-  "version": "3.0.0",
-  "description": "SUKUNA MD by PASQUA — WhatsApp bot paired through a self-hosted web panel (Pterodactyl / VPS).",
+  "name": "BILLIE-MD",
+  "version": "2.0.0",
+  "description": "A modern multi device WhatsApp bot.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+   "start": "node index.js",
+   "pair": "node pair-site/server.js"
   },
-  "keywords": [
-    "whatsapp",
-    "bot",
-    "baileys",
-    "panel",
-    "pairing",
-    "multi-session"
-  ],
-  "author": "PASQUA",
-  "license": "MIT",
-  "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.9",
-    "@crysnovax/baileys": "latest",
-    "axios": "^1.7.9",
+  "author": "Mr Pasqua",
+  "license": "ISC",
+  "overrides": {
+    "libsignal": "^6.0.0"
+  },
+  "dependencies": { 
+  "@vreden/youtube_scraper": "^1.2.8",
+  "@distube/ytdl-core": "^4.16.12",
+ "@trashcore/baileys": "latest",
+  "@hapi/boom": "^10.0.1",
+    "api-dylux": "^1.8.5",
+    "an-array-of-english-words": "^2.0.0",
+    "axios": "^1.7.2",
+    "acrcloud": "^1.4.0",
+    "btch-downloader": "^2.8.4",
     "chalk": "^4.1.2",
-    "dotenv": "^16.4.5",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2",
+    "file-type":"^16.5.3",
+    "fluent-ffmpeg": "^2.1.3",
     "ffmpeg-static": "^5.2.0",
+    "form-data": "^4.0.0",
     "fs-extra": "^11.2.0",
-    "moment": "^2.30.1",
-    "pino": "^9.6.0",
-    "play-dl": "^1.9.7",
-    "qrcode-terminal": "^0.12.0",
-    "sharp": "^0.33.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
+    "g-i-s": "^2.1.7",
+    "google-it": "^1.6.4",
+    "google-tts-api": "^2.0.2",
+    "is-word": "^1.0.4",
+    "jimp": "^0.16.1",
+    "mal-scraper": "^2.11.4",
+    "lyrics-finder": "^21.7.0",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^2.7.0",
+    "node-upload-images": "^1.0.1",
+    "node-telegram-bot-api": "^0.63.0",
+    "openai": "^3.3.0",
+    "path": "^0.12.7",
+    "performance-now": "^2.1.0",
+    "pino": "^8.21.0",
+    "sharp": "^0.32.2",
+    "util": "^0.12.4",
+    "wa-sticker-formatter": "^4.4.4",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^4.11.5",
+    "youtube-dl-exec": "^3.0.25",
+    "yt-search": "^2.10.4"
+    
+   }
 }

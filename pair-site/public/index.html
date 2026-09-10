@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Billie MD — Link your WhatsApp</title>
+<meta name="description" content="Generate a pairing code and connect Billie MD to your WhatsApp in under a minute." />
+<link rel="icon" href="data:," />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <div class="scene">
+    <div class="grid-glow" aria-hidden="true"></div>
+    <div class="orb orb-a" aria-hidden="true"></div>
+    <div class="orb orb-b" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">◈</span>
+        <span class="brand-name">Billie<b>MD</b></span>
+      </div>
+      <a class="topbar-link" href="https://github.com" target="_blank" rel="noopener">Source</a>
+    </header>
+
+    <main class="stage">
+      <section class="hero">
+        <p class="eyebrow">WhatsApp bot · self‑host</p>
+        <h1>Link Billie MD to your<br />WhatsApp in one code.</h1>
+        <p class="sub">Enter your number, get an 8‑digit code, paste it into WhatsApp's Linked Devices. Billie stays online in your chats from then on.</p>
+      </section>
+
+      <section class="panel" id="panel" data-state="input">
+        <div class="panel-frame">
+          <span class="corner tl"></span><span class="corner tr"></span>
+          <span class="corner bl"></span><span class="corner br"></span>
+
+          <!-- STATE: input -->
+          <div class="view view-input" data-view="input">
+            <label class="field-label" for="phone">WhatsApp number, with country code</label>
+            <div class="field">
+              <span class="field-plus">+</span>
+              <input id="phone" type="tel" inputmode="numeric" placeholder="234 801 234 5678" autocomplete="tel" />
+            </div>
+            <button id="submit" class="cta">Generate pairing code</button>
+            <p class="hint" id="hint">No spaces or dashes needed — digits only, country code first.</p>
+          </div>
+
+          <!-- STATE: loading -->
+          <div class="view view-loading" data-view="loading" hidden>
+            <div class="pulse-ring"></div>
+            <p class="loading-text">Requesting your code from WhatsApp…</p>
+          </div>
+
+          <!-- STATE: code -->
+          <div class="view view-code" data-view="code" hidden>
+            <p class="field-label">Your pairing code</p>
+            <div class="code-row">
+              <span class="code" id="codeValue">— — — — — — — —</span>
+              <button class="copy" id="copyBtn" title="Copy code">Copy</button>
+            </div>
+            <p class="code-expiry" id="codeExpiry">Enter this in WhatsApp within 60 seconds.</p>
+
+            <ol class="steps">
+              <li>Open WhatsApp → <b>Settings</b> → <b>Linked Devices</b></li>
+              <li>Tap <b>Link a device</b> → <b>Link with phone number instead</b></li>
+              <li>Type the code above exactly as shown</li>
+            </ol>
+
+            <div class="status-row" id="statusRow">
+              <span class="status-dot" id="statusDot"></span>
+              <span id="statusText">Waiting for you to enter the code…</span>
+            </div>
+
+            <button id="retry" class="ghost">Use a different number</button>
+          </div>
+
+          <!-- STATE: connected -->
+          <div class="view view-connected" data-view="connected" hidden>
+            <div class="check">✓</div>
+            <p class="connected-title">Billie MD is linked</p>
+            <p class="sub">Send <b>menu</b> to your own WhatsApp number to see what Billie can do.</p>
+            <button id="restart" class="ghost">Link another number</button>
+          </div>
+
+          <!-- STATE: error -->
+          <div class="view view-error" data-view="error" hidden>
+            <p class="error-text" id="errorText">Something went wrong.</p>
+            <button id="tryAgain" class="ghost">Try again</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>Billie MD — built on Baileys</span>
+      <span class="dot-sep">·</span>
+      <span>Your session lives on this server only</span>
+    </footer>
+  </div>
+
+  
+  <div class="fab-stack">
+    <a class="fab" href="https://whatsapp.com/channel/0029Vb8YB2T90x2zvQLnEb2k" target="_blank" rel="noopener">
+      <span class="fab-icon"><svg viewBox="0 0 24 24"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.9 11.9L4 20l4.2-1.1a7.9 7.9 0 0 0 3.85 1h.01a7.95 7.95 0 0 0 5.54-13.58zM12.05 18.4h-.01a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.5.65.67-2.44-.16-.25a6.6 6.6 0 1 1 5.6 3.1zm3.62-4.94c-.2-.1-1.17-.58-1.35-.64-.18-.07-.31-.1-.44.1-.13.2-.5.64-.62.77-.11.13-.23.14-.42.05-.2-.1-.83-.31-1.58-.98-.58-.52-.98-1.16-1.09-1.36-.11-.2-.01-.3.09-.4.09-.09.2-.23.3-.35.1-.12.13-.2.2-.33.07-.13.03-.25-.02-.35-.05-.1-.44-1.06-.6-1.45-.16-.38-.32-.33-.44-.33h-.38c-.13 0-.35.05-.53.25s-.7.68-.7 1.67.72 1.94.82 2.08c.1.13 1.42 2.17 3.44 3.04.48.21.86.33 1.15.42.48.15.92.13 1.27.08.39-.06 1.17-.48 1.34-.94.16-.46.16-.86.11-.94-.05-.08-.18-.13-.38-.23z"/></svg></span>
+      <span class="fab-label"><b>Updates channel</b><span>Follow on WhatsApp</span></span>
+    </a>
+    <a class="fab" href="https://wa.me/2349127814853" target="_blank" rel="noopener">
+      <span class="fab-icon"><svg viewBox="0 0 24 24"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.9 11.9L4 20l4.2-1.1a7.9 7.9 0 0 0 3.85 1h.01a7.95 7.95 0 0 0 5.54-13.58zM12.05 18.4h-.01a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.5.65.67-2.44-.16-.25a6.6 6.6 0 1 1 5.6 3.1zm3.62-4.94c-.2-.1-1.17-.58-1.35-.64-.18-.07-.31-.1-.44.1-.13.2-.5.64-.62.77-.11.13-.23.14-.42.05-.2-.1-.83-.31-1.58-.98-.58-.52-.98-1.16-1.09-1.36-.11-.2-.01-.3.09-.4.09-.09.2-.23.3-.35.1-.12.13-.2.2-.33.07-.13.03-.25-.02-.35-.05-.1-.44-1.06-.6-1.45-.16-.38-.32-.33-.44-.33h-.38c-.13 0-.35.05-.53.25s-.7.68-.7 1.67.72 1.94.82 2.08c.1.13 1.42 2.17 3.44 3.04.48.21.86.33 1.15.42.48.15.92.13 1.27.08.39-.06 1.17-.48 1.34-.94.16-.46.16-.86.11-.94-.05-.08-.18-.13-.38-.23z"/></svg></span>
+      <span class="fab-label"><b>Contact support</b><span>Chat on WhatsApp</span></span>
+    </a>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
