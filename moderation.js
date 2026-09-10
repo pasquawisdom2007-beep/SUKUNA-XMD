@@ -1,5 +1,4 @@
 // 👨‍💻 Developer: DevPasqua
-// 📲 Telegram  :- https://t.me/DevPasqua
 // 💬 WhatsApp  :- wa.me/2349028711461
 
 // moderation.js

@@ -73,8 +73,7 @@ app.post("/api/pair", async (req, res) => {
 
     lastRequestByPhone.set(phone, Date.now());
 
-    // Session id keyed off the phone number itself — this is a public pairing
-    // site, not tied to Telegram, so the number is the natural key.
+    // The phone number is the natural key for a web-created session.
     const sessionId = `web-${phone}`;
     const code = await whatsAppManager.pair(sessionId, phone);
 

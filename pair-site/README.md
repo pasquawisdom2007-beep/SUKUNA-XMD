@@ -30,10 +30,9 @@ socket needs — the connection has to stay open, not spin up per request.
    Environment tab — don't commit them.
 4. Deploy. Your pair site is live at `https://<your-service>.onrender.com`.
 
-After deployment, copy the exact public URL from Render and set it as
-`PAIR_SITE_URL` on the Telegram bot service. The bot's `/site` command then
-returns that URL. Set `TELEGRAM_BOT_TOKEN` on the bot service as well; it is
-intentionally not stored in `config.js`.
+After deployment, copy the exact public URL from Render and open it directly.
+The web pairing site is self-contained and does not require a separate bot
+service or token.
 
 If you'd rather set it up by hand instead of the blueprint: Web Service →
 Build command `npm install` → Start command `npm run pair`.
@@ -55,8 +54,8 @@ separate always‑on backend.
 
 ## Notes on this build
 
-- Sessions are stored under `../sessions/<web-phonenumber>`, same as the
-  Telegram flow, just with a `web-` prefix so the two don't collide.
+- Sessions are stored under `../sessions/<web-phonenumber>` using a `web-`
+  prefix so each browser-created session has a stable identifier.
 - Basic rate limiting is built in: one code per phone number per minute,
   and a per‑IP cap over a 10‑minute window. Tune these in `server.js` if
   you expect more traffic.

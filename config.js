@@ -110,37 +110,8 @@ module.exports = {
     }
   },
   
-  TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || "",
-  PAIR_SITE_URL: process.env.PAIR_SITE_URL || process.env.RENDER_EXTERNAL_URL || "",
-  OWNER_TELEGRAM_ID: process.env.OWNER_TELEGRAM_ID || "83273",
-  REQUIRED_CHANNELS: [
-  {
-    type: "channel",
-    id: "@billiemdincc",
-    link: "https://t.me/billiemdincc"
-  },
-  {
-    type: "channel",
-    id: "@DEVPASQUA",
-    link: "https://t.me/DEVPASQUA"
-  },
-
-  // 🔥 GROUPS USE NUMERIC 
-  {
-    type: "group",
-    id: -1003732348693, //groul id
-    link: "https://t.me/billiemdbotdisc"
-  },
-  {
-    type: "group",
-    id: -1003762516176,  // group id
-    link: "https://t.me/devpasquadisc"
-  }
-],
-
     MAX_PAIRED_USERS: 20, 
     AUTO_JOIN_GROUP_INVITE: 'EFk2U3OTFIwFzP7kRav4O', 
-    telegramHandle: "@Lag_aan",
 };
 
 let file = require.resolve(__filename);

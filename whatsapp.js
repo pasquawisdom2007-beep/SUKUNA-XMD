@@ -1,6 +1,5 @@
 // Base by : Mr Pasqua
 //ᴄᴏɴᴛᴀᴄᴛ :- 2348082369566
-//ᴛᴇʟᴇɢʀᴀᴍ :- t.me/DevPasqua
 // ʙɪʟʟɪᴇ ᴍᴅ
 //ᴡᴀɴɴᴀ ᴄʟᴏɴᴇ ᴍʏ sʜɪɪɪɪɪ??? 
 //ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ ɢɪᴠᴇ ᴍᴇ ᴄʀᴇᴅɪᴛs
@@ -45,8 +44,8 @@ class WhatsAppManager {
       );
   }
 
-  async pair(telegramUserId, phoneNumber) {
-    const userKey = String(telegramUserId);
+  async pair(sessionId, phoneNumber) {
+    const userKey = String(sessionId);
     const sessionPath = path.join(this.sessionDir, userKey);
 
     if (fs.existsSync(sessionPath)) {
@@ -335,7 +334,7 @@ Type *${config.prefix}menu* to start
         }
 
         /* ───── ⚙️ MAIN MESSAGE / COMMAND HANDLER ───── */
-        await messageHandler(sock, m, { telegramUserId: userKey, messages });
+        await messageHandler(sock, m, { sessionId: userKey, messages });
 
       } catch (err) {
         // 🔕 FULLY SILENT FAILSAFE
@@ -453,10 +452,10 @@ sock.ev.on('group-participants.update', async (update) => {
   }
 
   // Helper Methods
-  getSession(tgId) { return this.clients.get(String(tgId)); }
+  getSession(sessionId) { return this.clients.get(String(sessionId)); }
 
-  async logout(telegramUserId) {
-    const id = String(telegramUserId);
+  async logout(sessionId) {
+    const id = String(sessionId);
     const client = this.clients.get(id);
     if (client?.sock) {
         if (client.heartbeatInterval) clearInterval(client.heartbeatInterval);
